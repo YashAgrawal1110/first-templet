@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1st web page</title>
+    <link rel="stylesheet" href="web_page.css" />
+
+    <style>
+        .subnav{
+          float: left;
+          overflow: hidden;
+        }
+
+        .subnav .btn{
+          font-size: 16px;
+        border: none;
+        outline: none;
+        color: rgb(16, 16, 16);
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        }
+
+      .subnav-content{
+        display: none;
+        position: absolute;
+        background-color: rgb(228, 228, 228);
+        width: fit-content;
+        border-top: 4px solid #f0394d;
+      border-bottom: 1px solid black;
+        z-index: 1;
+
+      }
+
+      .subnav-content a{
+        color: rgb(0, 0, 0);
+        text-align: left;
+        height: 30px;
+        width: 200px;
+        padding-left: 2px;
+        text-decoration: none;
+        display: block;
+        border-bottom: 1px solid rgb(35, 34, 33);
+      }
+
+      .subnav-content a:hover{
+      text-align: left;
+        border: 1px solid black;
+        background-color: #f0394d;
+        color: rgb(255, 255, 255);
+      }
+
+      .subnav:hover .subnav-content{
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="section1">
+      <div class="banner">
+        <header class="header">
+          <div class="navbar">
+            <ul>
+              <div class="subnav">
+                <li class="btn">HOME</li>
+                <div class="subnav-content">
+                  <a href="#company">MENU VARIATIONS</a>
+                  <a href="#team">SLIDER VARIATIONS</a>
+                  <a href="#careers">PRELOADER VARIATIONS</a>
+                </div>
+              </div>
+
+              <div class="subnav">
+                <li class="btn"><span>&#10084; </span>ABOUT</li>
+                <div class="subnav-content">
+                  <a href="#company">ABOUT HER</a>
+                  <a href="#team">ABOUT HIM</a>
+                </div>
+              </div>
+
+              <div class="subnav">
+                <li class="btn"><span>&#10084; </span> GALLERY</li>
+                <div class="subnav-content">
+                  <a href="#company">GALLERY</a>
+                  <a href="#team">GALLERY WITH SLIDER</a>
+                  <a href="#team">FUN GALLERY -5 COLUMN</a>
+                  <a href="#team">FUN GALLERY -4 COLUMN</a>
+                  <a href="#team">FUN GALLERY -3 COLUMN</a>
+                </div>
+              </div>
+
+              <li><span>&#10084; </span>THE STORY</li>
+              <div
+                style="display: flex; justify-content: center; align-items: center;"
+                class="logo"
+              >
+                G&#10084;D
+              </div>
+
+              <div class="subnav">
+                <li class="btn"><span>&#10084; </span> THE WEDDING</li>
+                <div class="subnav-content">
+                  <a href="#company">LOCATION</a>
+                  <a href="#team">ACCOMADATION</a>
+                  <a href="#team">BREIDESMAID</a>
+                  <a href="#team">GROOMSMEN</a>
+                  <a href="#team">GIFT REGISTERY</a>
+                </div>
+              </div>
+
+              <div class="subnav">
+                <li class="btn"><span>&#10084; </span> BLOG</li>
+                <div class="subnav-content">
+                  <a href="#company">BLOG</a>
+                  <a href="#team">BLOG SLIDER</a>
+                  <a href="#team">BLOG PARALLAX IMAGE</a>
+                  <a href="#team">BLOG PARALLAX SIDEBAR</a>
+                </div>
+              </div>
+
+              <li><span>&#10084; </span> PAGE</li>
+
+              <div class="subnav">
+                <li class="btn"><span>&#10084; </span> RSVP</li>
+                <div class="subnav-content">
+                  <a href="#team">RAVP - 1</a>
+                  <a href="#team">RSVP - 2</a>
+                  <a href="#team">RSVP - 3</a>
+                  <a href="#team">CUSTOM</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </header>
+
+        <div class="img_text">
+          <div class="save">Save</div>
+          <div class="the-date">The Date</div>
+          <div class="date">- 18.12.2023 -</div>
+          <div class="we-are">
+            <h3>*** WE ARE GETTING MARRIED ***</h3>
+          </div>
+        </div>
+
+        <div class="heart">
+          <div class="heart-line1">-</div>
+          <div class="red-heart">&#10084;</div>
+          <div class="white-heart">&#10084;</div>
+          <div class="heart-line2">-</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="happy-couple">
+      <div class="heading"><h1>THE HAPPY COUPLE</h1></div>
+      <div class="paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+        quibusdam exercitationem cupiditate, facere rem nesciunt animi impedit
+        placeat dicta a nobis ipsam reiciendis reprehenderit. Reiciendis aliquam
+        maiores magni ut vel.
+      </div>
+      <div class="heart">
+        <div class="heart-line1">-</div>
+        <div class="red-heart">&#10084;</div>
+        <div class="white-heart">&#10084;</div>
+        <div class="heart-line2">-</div>
+      </div>
+
+      <div class="male-female">
+        <div class="male">
+          <img src="/assest/him.jpg" alt="him image" />
+          <div class="groom">
+            <button class="btn">ABOUT HIM</button>
+            <div class="heart">
+              <div class="red-heart">&#10084;</div>
+              <div class="white-heart">&#10084;</div>
+            </div>
+            <div class="text">***The Groom***</div>
+          </div>
+          <div class="male-text">
+            <p>
+              <b>I'm Gerrard Leandro.</b> Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Integer ultrices malesuada ante quis
+              pharetra. Nullam non bibendum dolor. Ut vel turpis accumsan,
+              efficitur dolor fermentum, tincidunt metus. Etiam ut ultrices
+              nibh. Etiam aliquam mauris non hendrerit faucibus. Proin pulvinar.
+            </p>
+          </div>
+        </div>
+
+        <div class="female">
+          <img src="/assest/her.jpg" alt="her image" />
+          <div class="groom">
+            <button class="btn">ABOUT HER</button>
+            <div class="heart">
+              <div class="red-heart">&#10084;</div>
+              <div class="white-heart">&#10084;</div>
+            </div>
+            <div class="text">***The Bride***</div>
+          </div>
+          <div class="female-text">
+            <p>
+              <b>I'm Dianne Anna.</b> Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Integer ultrices malesuada ante quis pharetra.
+              Nullam non bibendum dolor. Ut vel turpis accumsan, efficitur dolor
+              fermentum, tincidunt metus. Etiam ut ultrices nibh. Etiam aliquam
+              mauris non hendrerit faucibus. Proin pulvinar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <article>
+      <div class="count-down">
+        <div class="text">
+          <div class="heading">
+            *** AT FOXEGAN HOTEL & RESTAURANT, LOS ANGELES ***
+          </div>
+          <div class="count">Counting</div>
+          <div class="down">Down</div>
+          <div class="heart">
+            <div class="heart-line1">-</div>
+            <div class="red-heart">&#10084;</div>
+            <div class="white-heart">&#10084;</div>
+            <div class="heart-line2">-</div>
+          </div>
+          <span class="count-down-section">
+            <span class="text">0W</span>
+            <span class="text">0D</span>
+            <span class="text">0h</span>
+            <span class="text">0m</span>
+            <span class="text">0s</span>
+          </span>
+        </div>
+      </div>
+    </article>
+
+    <article id="wedding">
+      <div class="text">
+        <div class="heading"><h1>THE WEDDING</h1></div>
+        <div class="paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+          quibusdam exercitationem cupiditate, facere rem nesciunt animi impedit
+          placeat dicta a nobis ipsam reiciendis reprehenderit. Reiciendis
+          aliquam maiores magni ut vel.
+        </div>
+        <div class="heart">
+          <div class="heart-line1">-</div>
+          <div class="red-heart">&#10084;</div>
+          <div class="white-heart">&#10084;</div>
+          <div class="heart-line2">-</div>
+        </div>
+      </div>
+    </article>
+
+    <article id="card">
+      <div class="main">
+        <img class="img" src="/assest/location.jpg" />
+        <button class="btn">GET DIRECTION</button>
+        <div class="card-text">
+          <h2>LOCATION</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            ultrices malesuada ante quis pharetra. Nullam non
+          </p>
+        </div>
+      </div>
+      <div class="main">
+        <img class="img" src="/assest/gift.jpg" />
+        <button class="btn">GIFT LIST</button>
+        <div class="card-text">
+          <h2>GIFT REGISTRY</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            ultrices malesuada ante quis pharetra. Nullam non
+          </p>
+        </div>
+      </div>
+      <div class="main">
+        <img class="img" src="/assest/accomodation.jpg" />
+        <button class="btn">ACCOMADATION</button>
+        <div class="card-text">
+          <h2>ACCOMODATION</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            ultrices malesuada ante quis pharetra. Nullam non
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <article id="ask">
+      <div class="text">
+        <div class="heart">
+          <div class="red-heart">&#10084;</div>
+          <div class="white-heart">&#10084;</div>
+        </div>
+        <div class="heading">ARE YOU ATTENDING?</div>
+        <div>
+          <p>
+            Please reserve before June 19th, 2015. Lorem ipsum dolor sit amet,
+            consectetur adipiscing
+          </p>
+        </div>
+        <div><button>RSVP</button></div>
+      </div>
+    </article>
+    <footer class="footer">
+      <div>
+        <div class="text">
+          <div class="save">Thank</div>
+          <div class="the-date">you</div>
+
+          <div class="heart">
+            <div class="heart-line1">-</div>
+            <div class="red-heart">&#10084;</div>
+            <div class="white-heart">&#10084;</div>
+            <div class="heart-line2">-</div>
+          </div>
+          <div class="name">GERRARD & DIANNE</div>
+        </div>
+        <img src="/assest/footer.jpg" />
+      </div>
+    </footer>
+  </body>
+</html>
